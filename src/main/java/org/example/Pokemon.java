@@ -20,6 +20,10 @@ public class Pokemon {
     public Pokemon() {
     }
 
+    public Pokemon(String name){
+        this.name = name;
+    }
+
     public int getId() {
         return id;
     }
